@@ -4,8 +4,6 @@ import { firebase, gmConfig } from "./config.js";
 import GoogleMapReact from "google-map-react";
 import DriverLocation from "./DriverLocation.js";
 
-// const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
 class App extends Component {
   state = {
     center: [28.4, -81.2],
