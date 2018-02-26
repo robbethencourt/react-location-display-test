@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.google-map-container {
+  width: 100%;
+  height: 300px;
+}
+
+.driver-details {
+  width: 50px;
+  height: 40px;
+  padding-top: 10px;
+  border: 5px solid #4879a3;
+  border-radius: 50%;
+  color: #999;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  background-color: #fff;
+}
