@@ -23,14 +23,14 @@ class App extends Component {
         };
       });
       const latLngArray = Object.keys(drivers).map(key => drivers[key]);
-      const fullDriversObject = driversIdArray.map(({ driverId }, i) => {
+      const fullDriversDetailsArray = driversIdArray.map(({ driverId }, i) => {
         return {
           driverId: driverId,
           latitude: latLngArray[i].latitude,
           longitude: latLngArray[i].longitude
         };
       });
-      this.setState({ driversToDisplay: fullDriversObject });
+      this.setState({ driversToDisplay: fullDriversDetailsArray });
     });
   }
 
